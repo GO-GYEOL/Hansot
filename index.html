@@ -1,126 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- 제이쿼리 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- 슬릭 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
-        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
-        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- 폰트어썸 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- css,js -->
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="navbar"></div>
 
     <div class="main-visual-wrap">
-        <div class="main-contents01">
-            <div class="img"></div>
+      <div class="main-contents01">
+        <div class="img"></div>
+      </div>
+
+      <div class="main-contents02 row">
+        <div class="left cell">
+          <img
+            src="https://www.hsd.co.kr/assets/images/main/main_img_01.jpg"
+            alt=""
+          />
+          <div class="text">
+            <span
+              >가격 이상의 가치가 담긴 <br />
+              다양한 메뉴를 확인해 보세요</span
+            >
+            <div class="btn">한솥메뉴</div>
+          </div>
         </div>
-
-        <div class="main-contents02 row">
-            <div class="left cell">
-                <img src="https://www.hsd.co.kr/assets/images/main/main_img_01.jpg" alt="">
-                <div class="text">
-                    <span>가격 이상의 가치가 담긴 <br> 다양한 메뉴를 확인해 보세요</span>
-                    <div class="btn">한솥메뉴</div>
-                </div>
-            </div>
-            <div class="right cell">
-                <img src="https://www.hsd.co.kr/assets/images/main/main_img_02.jpg" alt="">
-                <div class="text">
-                    <span>가격 이상의 가치가 담긴 <br> 다양한 메뉴를 확인해 보세요</span>
-                    <div class="btn">한솥메뉴</div>
-                </div>
-            </div>
+        <div class="right cell">
+          <img
+            src="https://www.hsd.co.kr/assets/images/main/main_img_02.jpg"
+            alt=""
+          />
+          <div class="text">
+            <span
+              >가격 이상의 가치가 담긴 <br />
+              다양한 메뉴를 확인해 보세요</span
+            >
+            <div class="btn">한솥메뉴</div>
+          </div>
         </div>
+      </div>
 
-        <div class="main-content03 row">
-            <div class="first cell">
-                <h2>가맹점주에게도 <br>든든한 한솥입니다</h2>
-                <span>점주님들의 꿈을 실현시켜 드리기 위해<br>
-                    가맹점주와 성공까지 동행하는 한솥!<br>
-                    상담부터 개업까지 모든 희로애락을 함께 합니다.</span>
-            </div>
-            <div class="second cell">
-                <img src="https://www.hsd.co.kr/assets/images/main/main_img_03.jpg" alt="">
-                <div class="text">
-                    <span>한솥은 언제나 고객과<br>점주님들의<br>이익을 먼저 생각합니다<br></span>
-                    <div class="btn">한솥메뉴</div>
-                </div>
-            </div>
-            <div class="third cell">
-                <img src="https://www.hsd.co.kr/assets/images/main/main_img_04.jpg" alt="">
-                <div class="text">
-                    <span>한솥은 언제나 고객과<br>점주님들의<br>이익을 먼저 생각합니다<br></span>
-                    <div class="btn">한솥메뉴</div>
-                </div>
-            </div>
+      <div class="main-content03 row">
+        <div class="first cell">
+          <h2>가맹점주에게도 <br />든든한 한솥입니다</h2>
+          <div class="bar"></div>
+          <span
+            >점주님들의 꿈을 실현시켜 드리기 위해<br />
+            가맹점주와 성공까지 동행하는 한솥!<br />
+            상담부터 개업까지 모든 희로애락을 함께 합니다.</span
+          >
         </div>
-
-        <div class="main-content04">
-            <img src="https://www.hsd.co.kr/assets/images/main/main_visual_02.jpg" alt="">
+        <div class="second cell">
+          <img
+            src="https://www.hsd.co.kr/assets/images/main/main_img_03.jpg"
+            alt=""
+          />
+          <div class="text">
+            <span
+              >한솥은 언제나 고객과 점주님들의<br />이익을 먼저 생각합니다<br
+            /></span>
+            <div class="btn">한솥메뉴</div>
+          </div>
         </div>
-
-        <div class="main-content05">
-            <div class="left cell">
-                <img src="https://www.hsd.co.kr/assets/images/main/main_img_05.jpg" alt="">
-            </div>
-            <div class="right cell">
-                <div class="text2">
-                    <h1>식재료 앞에서는<br>한없이<br>까탈스럽습니다</h1>
-                    <span>맑고 꺠끗한 자연 환경속에서 재배된 식재료가 아니면<br>한솥이 될 수 없습니다. 모든 식재료는 고객분들이 안심<br>하고 드실 수 있도록 엄격한 기준 아래 선별됩니다.</span>
-                </div>
-            </div>
+        <div class="third cell">
+          <img
+            src="https://www.hsd.co.kr/assets/images/main/main_img_04.jpg"
+            alt=""
+          />
+          <div class="text">
+            <span
+              >한솥은 언제나 고객과 점주님들의<br />이익을 먼저 생각합니다<br
+            /></span>
+            <div class="btn">한솥메뉴</div>
+          </div>
         </div>
+      </div>
 
-        <div class="main-content06">
-            <div class="more"></div>
-            <div class="first cell">
-                <img src="https://www.hsd.co.kr/assets/images/common/more_hansot.jpg" alt="">
-                <div class="text3">
-                    <h3>한솥의 약속</h3>
-                </div>
-            </div>
-            <div class="second cell">
-                <img src="https://www.hsd.co.kr/assets/images/common/more_event.jpg" alt="">
-                <div class="text3">
-                    <h3>온라인 이벤트</h3>
-                </div>
-            </div>
-            <div class="third cell">
-                <img src="https://www.hsd.co.kr/assets/images/common/more_news.jpg" alt="">
-                <div class="text3">
-                    <h3>한솥 NEWS</h3>
-                </div>
-            </div>
+      <div class="main-content04">
+        <div class="cover">
+          <div class="inner-content">
+            <h1 style='font-weight:bold;'>든든한 솥밥을 위해<br />한솥이 지키고,<br />키워가는 것들</h1>
+            <div class="bar" style="background-color: white;"></div>
+            <span
+              >한솥은 '따끈한 도시락으로 지역사회에 공헌한다' 라는<br />기업이념
+              아래, 고객 이익을 최우선으로 하며 엄선된<br />좋은 식재료만
+              사용하는 대한민국 외식종합기업 시장을<br />리드하는 글로벌
+              종합외식기업 입니다.</span
+            >
+            <div class="button">브랜드 철학</div>
+          </div>
         </div>
+      </div>
 
-        <div class="footer">
-
+      <div class="main-content05">
+        <div class="left cell">
+          <img
+            src="https://www.hsd.co.kr/assets/images/main/main_img_05.jpg"
+            alt=""
+          />
         </div>
+        <div class="right cell">
+          <div class="text2">
+            <h1>식재료 앞에서는<br />한없이<br />까탈스럽습니다</h1>
+            <div class="bar"></div>
+            <span
+              >맑고 깨끗한 자연 환경속에서 재배된 식재료가<br />
+              아니면 한솥이 될 수 없습니다.<br />
+              모든 식재료는 고객분들이 안심하고 드실 수<br />
+              있도록 엄격한 기준 아래 선별됩니다.</span
+            >
+            <div class="btn">식재료이야기</div>
+          </div>
+        </div>
+      </div>
 
+      <div class="main-content06">
+        <div class="more"></div>
+        <div class="first-no cell">
+          <img
+            src="https://www.hsd.co.kr/assets/images/common/more_hansot.jpg"
+            alt=""
+          />
+          <div class="text3">
+            <h3>한솥의 약속</h3>
+          </div>
+        </div>
+        <div class="second-no cell">
+          <img
+            src="https://www.hsd.co.kr/assets/images/common/more_event.jpg"
+            alt=""
+          />
+          <div class="text3">
+            <h3>온라인 이벤트</h3>
+          </div>
+        </div>
+        <div class="third-no cell">
+          <img
+            src="https://www.hsd.co.kr/assets/images/common/more_news.jpg"
+            alt=""
+          />
+          <div class="text3">
+            <h3>한솥 NEWS</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer"></div>
     </div>
-
-</body>
-
+  </body>
 </html>
